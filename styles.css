@@ -1,0 +1,83 @@
+/* Réinitialisation des styles de base */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles généraux */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1d1f21;
+    color: #fff;
+}
+
+header {
+    background-color: #2a2c2f;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid #444;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #2a2c2f;
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid #444;
+}
+
+
+/* Le reste du CSS reste le même */
+
+.breadcrumb {
+    background-color: #2a2c2f;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.breadcrumb p {
+    color: #ccc;
+}
+
+.breadcrumb a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.breadcrumb a:hover {
+    color: #fff;
+}
+
+.breadcrumb span {
+    color: #fff;
+}
